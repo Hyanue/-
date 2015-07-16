@@ -8,8 +8,11 @@ int main()
 	float a;
 	float b;
 	float c;
+	printf("type in 'a' and press enter\n");
 	scanf("%f",&a);
+	printf("type in 'b' and press enter\n");
 	scanf("%f",&b);
+	printf("type in 'c' and press enter\n");
 	scanf("%f",&c);
 	float  d=b*b-4*a*c;
 		if(d >= 0)
@@ -24,6 +27,7 @@ int main()
 			{
 				printf("\nno solution");
 			}
+	printf("\npress enter to end the program");
 	getch();
 	return 0;
 	
