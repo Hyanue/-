@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
 #include <math.h>
@@ -10,6 +9,7 @@ float getji(float a,float b,float c)
 {
 	return c/a;
 }
+
 int main() 
 {
 	float a;
@@ -35,6 +35,10 @@ int main()
 			{
 				printf("\nno solution"); 
 			}
+				printf("\n(%f,",-b/(2*a) );
+		
+				printf("%f)\n",(4*a*c)-(b*b)/(4*a));
+		
 	printf("\npress enter to end the program");
 	getch(); 
 	return 0;
