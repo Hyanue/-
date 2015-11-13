@@ -37,7 +37,7 @@ int main()
 			}
 				printf("\n(%f,",-b/(2*a) );
 		
-				printf("%f)\n",(4*a*c)-(b*b)/(4*a));
+				printf("%f)\n",((4*a*c)-(b*b))/(4*a));
 		
 	printf("\npress enter to end the program");
 	getch(); 
